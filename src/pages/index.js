@@ -2,6 +2,7 @@ import React from "react";
 
 import Menu from "components/menu/Menu";
 import Skills from "components/skills/Skills";
+import Projects from "components/projects/Projects";
 
 import "sass/index.scss";
 
@@ -18,6 +19,7 @@ const IndexPage = () => {
           </p>
         </div>
         <Skills />
+        <Projects />
       </main>
     </div>
   );
