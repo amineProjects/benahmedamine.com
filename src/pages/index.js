@@ -1,6 +1,7 @@
 import React from "react";
 
 import Menu from "components/menu/Menu";
+import Skills from "components/skills/Skills";
 
 import "sass/index.scss";
 
@@ -16,6 +17,7 @@ const IndexPage = () => {
             I'm passionate about creating new web app, and solving problem
           </p>
         </div>
+        <Skills />
       </main>
     </div>
   );

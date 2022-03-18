@@ -1,0 +1,42 @@
+.skills {
+  &--items {
+    display: flex;
+    margin-top: 1.5em;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      text-align: center;
+    }
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &--item {
+    text-align: center;
+    margin: 0.5em 0;
+  }
+  &--icon {
+    font-size: 8em;
+  }
+  &--number {
+    font-size: 3em;
+  }
+}
+.fa {
+  &-html5 {
+    color: rgb(223, 134, 0);
+  }
+  &-css3-alt {
+    color: rgb(13, 89, 255);
+  }
+  &-js {
+    color: rgb(223, 200, 0);
+  }
+  &-sass {
+    color: rgb(255, 9, 124);
+  }
+  &-react {
+    color: rgb(0, 178, 223);
+  }
+  &-aws {
+    color: rgb(4, 0, 26);
+  }
+}

@@ -6,10 +6,12 @@
 
 .bio {
   text-align: center;
+  padding-bottom: 3em;
 }
 
 .title {
   font-size: 3em;
+  text-align: center;
 }
 
 .subtitle {
@@ -18,4 +20,9 @@
 }
 .text {
   font-size: 1.2em;
+}
+
+.section {
+  padding: 3em 0;
+  border-top: 2px solid rgb(148, 148, 148);
 }
