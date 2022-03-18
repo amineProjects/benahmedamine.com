@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "s": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
@@ -32,5 +32,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "gatsby-plugin-root-import": "^2.0.8"
   }
 }
