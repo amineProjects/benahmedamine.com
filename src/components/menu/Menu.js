@@ -1,26 +1,36 @@
 import React from "react";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "./menu.scss";
+import { Link } from "gatsby";
 
 const Menu = () => {
   return (
     <div className="menu">
-      <div className="menu--logo">&Sigma; code</div>
+      <div className="menu--logo">
+        <Link className="menu--link text" to="/">
+          &Sigma; code
+        </Link>
+      </div>
       <ul className="menu--items">
         <li className="menu--item">
-          <a className="menu--link text" href="#skills">
+          <AnchorLink className="menu--link text" to="/#skills" title="Skills">
             skills
-          </a>
+          </AnchorLink>
         </li>
         <li className="menu--item">
-          <a className="menu--link text" href="#project">
+          <AnchorLink
+            className="menu--link text"
+            to="/#projects"
+            title="projects"
+          >
             project
-          </a>
+          </AnchorLink>
         </li>
         <li className="menu--item">
-          <a className="menu--link text" href="#contact">
+          <AnchorLink className="menu--link text" to="#contact" title="contact">
             contact
-          </a>
+          </AnchorLink>
         </li>
       </ul>
     </div>

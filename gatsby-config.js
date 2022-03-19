@@ -40,5 +40,6 @@ module.exports = {
       __key: "pages",
     },
     "gatsby-plugin-root-import",
+    `gatsby-plugin-anchor-links`,
   ],
 };

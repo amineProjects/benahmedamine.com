@@ -6,24 +6,33 @@ const Footer = () => {
   return (
     <div className="section footer">
       <p className="footer--copy">
-        &copy; 2022 &Sigma; code all rights reserved{" "}
+        &copy; 2022 &Sigma; code all rights reserved
       </p>
       <ul className="footer--social">
         <li>
           <a
             href="https://www.linkedin.com/in/mohammed-amine-benahmed-b7838917b/"
+            rel="noreferrer"
             target="_blank"
           >
             <i className="fa-brands fa-linkedin"></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/amineProjects" target="_blank">
+          <a
+            href="https://github.com/amineProjects"
+            rel="noreferrer"
+            target="_blank"
+          >
             <i className="fa-brands fa-github"></i>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/b_aminoe" target="_blank">
+          <a
+            href="https://twitter.com/b_aminoe"
+            rel="noreferrer"
+            target="_blank"
+          >
             <i className="fa-brands fa-twitter"></i>
           </a>
         </li>

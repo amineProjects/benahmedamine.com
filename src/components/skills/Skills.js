@@ -12,7 +12,7 @@ const Skills = () => {
     { name: "aws", text: "AWS", percentage: "40%" },
   ];
   return (
-    <div className="skills section">
+    <div id="skills" className="skills section">
       <h2 className="title">My Skills</h2>
       <ul className="skills--items">
         {data.map(({ name, text, percentage }) => (

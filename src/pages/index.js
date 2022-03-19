@@ -1,4 +1,5 @@
 import React from "react";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Menu from "components/menu/Menu";
 import Skills from "components/skills/Skills";
@@ -10,10 +11,10 @@ import "sass/index.scss";
 
 const IndexPage = () => {
   return (
-    <div className="container">
+    <div id="top" className="container">
       <Menu />
-      <main>
-        <div className="bio">
+      <main style={{ position: "relative" }}>
+        <div id="bio" className="bio">
           <h1 className="title">Hi, I'am Amine</h1>
           <p className="subtitle">Frontend developer from Oran, Algeria.</p>
           <p className="text">
@@ -25,6 +26,9 @@ const IndexPage = () => {
         <Contact />
       </main>
       <Footer />
+      <AnchorLink className="goToTop" to="#top">
+        &uarr;
+      </AnchorLink>
     </div>
   );
 };
