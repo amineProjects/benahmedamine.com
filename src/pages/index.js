@@ -3,6 +3,8 @@ import React from "react";
 import Menu from "components/menu/Menu";
 import Skills from "components/skills/Skills";
 import Projects from "components/projects/Projects";
+import Contact from "components/contact/Contact";
+import Footer from "components/footer/Footer";
 
 import "sass/index.scss";
 
@@ -20,6 +22,8 @@ const IndexPage = () => {
         </div>
         <Skills />
         <Projects />
+        <Contact />
+        <Footer />
       </main>
     </div>
   );
