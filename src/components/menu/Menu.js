@@ -1,16 +1,14 @@
 import React from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
+import Logo from "components/logo/Logo";
 import "./menu.scss";
-import { Link } from "gatsby";
 
 const Menu = () => {
   return (
     <div className="menu">
       <div className="menu--logo">
-        <Link className="menu--link text" to="/">
-          &Sigma; code
-        </Link>
+        <Logo />
       </div>
       <ul className="menu--items">
         <li className="menu--item">

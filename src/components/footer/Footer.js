@@ -1,13 +1,13 @@
 import React from "react";
+import Logo from "components/logo/Logo";
 
 import "./footer.scss";
 
 const Footer = () => {
   return (
     <div className="section footer">
-      <p className="footer--copy">
-        &copy; 2022 &Sigma; code all rights reserved
-      </p>
+      <Logo />
+      <p className="footer--copy">&copy; 2022 all rights reserved</p>
       <ul className="footer--social">
         <li>
           <a
