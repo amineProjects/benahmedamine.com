@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &--social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    & li {
+      margin-right: 1em;
+    }
+    & a {
+      color: #000;
+    }
+  }
+}

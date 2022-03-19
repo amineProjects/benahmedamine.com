@@ -23,8 +23,8 @@ const IndexPage = () => {
         <Skills />
         <Projects />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 };
